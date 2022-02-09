@@ -1,0 +1,28 @@
+@import '_fonts.scss';
+@import '_desktop.scss';
+@import '_diagonal.scss';
+@import '_adaptive.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1920;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+.main {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+
+

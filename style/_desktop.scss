@@ -1,0 +1,232 @@
+@import '_variables.scss';
+@import '_fonts.scss';
+@import '_adaptive.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 40px;
+  color: $colorTitle;
+}
+
+.main {
+  padding-left: 5px;
+}
+
+.top {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 85px;
+
+    &__name {
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+}
+
+.top__content {
+  height: 645px;
+  display: flex;
+  flex-grow: row nowrap;
+
+  &_list {
+    flex: 1 1 40%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 24px;
+    color: $colorBlack;
+  }
+}
+
+.top__content_list.list {
+  padding-top: 221px;
+}
+
+.top__content_image {
+  flex: 1 1 60%;
+  background-image: url(../images/boiler.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+ul li::before {
+  content: url(../images/marker.png);  
+  display: inline-block; 
+  width: 45px; 
+}
+
+.center {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+
+  &__name {
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 36px;
+    color: $colorBlack;
+  }
+}
+
+.article {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1410px;
+  margin-bottom: 35px;
+  padding-top: 20px;
+  padding-left: 68px;
+  background: #ffff;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+
+  &__title {
+    flex: 1 1 45%;
+
+    &_name {
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 36px;
+      color: $colorBlack;
+      margin-bottom: 40px;
+    }
+
+    &_text {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 28px;
+      color: $colorBlack;
+    }
+  }
+
+  &__img {
+    flex: 1 1 40%;
+    height: 340px;
+    background-image: url(../images/333333.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__price {
+    flex: 1 1 33%;
+    padding-top: 30px;
+    padding-left: 10px;
+
+    &_old {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 36px;
+      color: $colorText;
+      text-decoration: line-through;
+      margin-bottom: 21px;
+    }
+
+    &_new {
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 1;
+      color: $colorBlack;
+      margin-bottom: 5px;
+    }
+
+    &_econom {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 36px;
+      color: $colorBlack;
+      margin-bottom: 25px;
+    }
+
+    &_btn {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 24px;
+      color: $colorTextBtn;
+      background-color: $colorButton;
+      border: 1px solid $colorButton;
+      border-radius: 4px;
+      padding: 20px 35px;
+      margin-bottom: 55px;
+    }
+  }
+}
+
+.article__img.img2 {
+  background-image: url(../images/777.png);
+  background-position: 0% 30%;
+}
+
+.article.article_bottom {
+  margin-bottom: 100px;
+}
+
+.drink {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 173px;
+
+  &__img {
+    flex: 1 1 38%;
+    height: 633px;
+    background-image: url(../images/drink.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    flex: 1 1 62%;
+    font-family: 'MyriadPro';
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
+
+.drink__title span {
+  font-family: 'MyriadPro';
+  font-weight: 700;
+  font-size: 40px;
+  color: $colorBlack;
+}
+
+.bottom {
+  position: relative;
+  z-index: 10;
+  padding-left: 100px;
+
+  &__name {
+  text-align: center;
+  margin-bottom: 95px;
+  }
+}
+
+.top__content_list.bottom__item {
+  padding-top: 0;
+  margin-bottom: 250px;
+}
+
+

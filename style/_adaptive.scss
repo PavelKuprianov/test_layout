@@ -1,0 +1,277 @@
+@media (max-width: 1750px) {
+  .diagonal-3 {
+    z-index: 1;
+  }
+  .diagonal-4 {
+    display: none;
+  }
+}
+
+@media (max-width: 1455px) {
+  h2,
+  .drink__title {
+    font-size: 36px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .main {
+    width: 95%;
+  }
+
+  .diagonal-2,
+  .diagonal-3 {
+    display: none;
+  }
+
+  .diagonal-5 {
+    top: 2200px;
+  }
+
+  .top__content_list {
+    flex: 1 1 50%;
+  }
+
+  .top__content_image {
+    flex: 1 1 50%;
+    background-position: 50% 90%;
+  }
+
+  .article__price_btn {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .article {
+    padding-left: 20px;
+  }
+  .article__price_new {
+    font-size: 50px;
+  }
+  .article__price_econom {
+    font-size: 32px;
+  }
+  .article__price_btn {
+    padding: 20px 20px;
+    font-size: 18px;
+  }
+  .diagonal-1 {
+    top: 400px;
+    left: 100px;
+  }
+  .diagonal-5 {
+    top: 2000px;
+  }
+  .drink__title span {
+    font-size: 36px;
+  }
+  .top__content_list {
+    flex: 1 1 60%;
+  }
+  .top__content_image {
+    flex: 1 1 40%;
+    background-position: 50% 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .diagonal-1,
+  .diagonal-5 {
+    display: none;
+  }
+  .top__name {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .top__content {
+    padding-top: 50px;
+    flex-direction: column;
+    height: 770px;
+
+    &_list {
+      flex: 1 1 100%;
+      order: 2;
+    }
+
+    &_image {
+      flex: 1 1 100%;
+      order: 1;
+      height: 600px;
+    }
+  }
+  .article__img.img2 {
+    background-position: 50% 50%;
+  }
+  .top__content_list.list {
+    padding-top: 30px;
+    padding-left: 20%;
+  }
+  .article {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 70vh;
+    width: 100%;
+
+    &__title {
+      padding-top: 10px;
+      flex: 1 1 10%;
+    }
+
+    &__img {
+      flex: 0 0 35%;
+      height: 100px;
+      width: 100%;
+      background-position: 50% 50%;
+    }
+
+    &__price {
+      flex: 1 1 45%;
+    }
+  }
+  .article__title_name,
+  .article__title_text {
+    text-align: center;
+  }
+  .drink {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin-bottom: 50px;
+
+    &__img {
+      flex: 1 1 80%;
+      order: 2;
+      width: 100%;
+      background-position: 50% 50%;
+    }
+
+    &__title {
+      flex: 1 1 20%;
+      order: 1;
+      text-align: center;
+    }
+  }
+
+  .bottom {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 735px) {
+  h2, .drink__title {
+    font-size: 32px;
+  }
+  .top__content_list.list {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .center__text {
+    font-size: 28px;
+  }
+  .drink__title span {
+    font-size: 32px;
+  }
+  .article__price_new {
+    font-size: 40px;
+  }
+  .bottom__name {
+    margin-bottom: 10px;
+  }
+  .top__content_list.bottom__item {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .top {
+    margin-bottom: 30px;
+
+    &__content {
+      height: 640px;
+
+      &_list {
+        font-size: 20px;
+      }
+    }
+  }
+  h2, 
+  .drink__title {
+    font-size: 28px;
+  }
+  .center__text {
+    font-size: 24px;
+  }
+  .article__title_name {
+    font-size: 30px;
+  }
+  .article__title_text {
+    font-size: 24px;
+  }
+  .drink__title span {
+    font-size: 28px;
+  }
+  .article.article_bottom {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 345px) {
+  .main {
+    width: 98%;
+    padding-left: 0;
+  }
+  .top__content_list.list {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  ul li::before {
+    width: 35px;
+  }
+  .top {
+    margin-bottom: 25px;
+
+    &__content {
+      height: 630px;
+
+      &_list {
+        font-size: 18px;
+      }
+    }
+  }
+  h2, 
+  .drink__title {
+    font-size: 24px;
+  }
+  .center__text {
+    font-size: 22px;
+  }
+  .article {
+    height: 60vh;
+  }
+  .article__title_name {
+    font-size: 28px;
+  }
+  .article__title_text {
+    font-size: 22px;
+  }
+  .article__img {
+    -ms-flex: 0 0 28%;
+    flex: 0 0 28%;
+  }
+  .drink__title span {
+    font-size: 24px;
+  }
+  .article.article_bottom {
+    margin-bottom: 40px;
+  }
+}
